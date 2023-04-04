@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+*{
+    max-width: 1200px;
+    font-family: Roboto;
+}
+header, footer, .subheader{
+    background-color: #1F2937;
+}
+
+.subheader_title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.subheader_phrase, .header_link{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.dark, .light, .action{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.light{
+    border-radius: 10px;
+    border: #F9FAF8 1px solid;
+}
+
+.quation{
+    background-color:#E5E7EB;
+}
